@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend port (Vite)
+    origin: "https://shahnawaz-portfolio-three.vercel.app", // frontend port (Vite)
     credentials: true,
   })
 );
